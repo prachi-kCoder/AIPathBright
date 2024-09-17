@@ -4,13 +4,13 @@ AIPathBright is a project that includes a FastAPI backend and a React Vite front
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Prerequisites](#prerequisites)
-- [Backend Setup](#backend-setup)
-- [Frontend Setup](#frontend-setup)
-- [Running the Application](#running-the-application)
+- [AIPathBright](#aipathbright)
+  - [Table of Contents](#table-of-contents)
+  - [Project Overview](#project-overview)
+  - [Prerequisites](#prerequisites)
+  - [Backend Setup](#backend-setup)
+  - [FRONT END Setup](#front-end-setup)
 - [Contributing](#contributing)
-- [License](#license)
   
 
 ## Project Overview
@@ -37,7 +37,7 @@ Before you begin, ensure you have met the following requirements:
    
    (Activate venv)
    
-    careerenv\Scripts\activate
+    careerenv\Scripts\activate (navigate to "careerenv\Scripts", then run command activate)
 
 5. Install the Python dependencies:
 
