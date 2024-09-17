@@ -1,0 +1,22 @@
+# Node.js and React (client folder)
+node_modules/
+.env
+.next/
+build/
+.cache/
+dist/
+coverage/
+
+# IDE and Editor files
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
+*.tmp
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
