@@ -35,21 +35,29 @@ Before you begin, ensure you have met the following requirements:
    
     python -m venv careerenv
    
-    On Windows:   careerenv\Scripts\activate
+   (Activate venv)
+   
+    careerenv\Scripts\activate
 
-4. Install the Python dependencies:
+5. Install the Python dependencies:
 
-  pip install -r requirements.txt    (to install all dependency with in the activated virtaul env careerenv)
+    pip install -r requirements.txt    (to install all dependency with in the activated virtaul env careerenv)
   
   - Run the FastAPI server:
+    
   uvicorn main:app --reload
 
 ## FRONT END Setup
 1. Navigate to the client directory:
+   
   cd client
+  
 2. Install dependency for React-vite
+   
   npm install
+  
 3. Run code
+
   npm run dev
 
 # Contributing
