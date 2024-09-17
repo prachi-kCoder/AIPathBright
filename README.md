@@ -12,23 +12,6 @@ AIPathBright is a project that includes a FastAPI backend and a React Vite front
 - [Contributing](#contributing)
 - [License](#license)
   
-- AIPathBright/
-│
-├── server/                # FastAPI Backend
-│   ├── main.py            # Entry point for FastAPI
-│   ├── requirements.txt   # Python dependencies
-│   ├── ...                # Other FastAPI related files
-│
-├── client/                # React Vite Frontend
-│   ├── src/               # React source files
-│   ├── public/            # Public assets
-│   ├── index.html         # Main HTML file
-│   ├── package.json       # JavaScript dependencies
-│   ├── vite.config.js     # Vite configuration
-│   ├── ...                # Other frontend related files
-│
-└── README.md              # Project documentation
-
 
 ## Project Overview
 
@@ -46,21 +29,35 @@ Before you begin, ensure you have met the following requirements:
 
 1. **Navigate to the `server` directory:**
 
-   ```bash
+   (bash-commands)
    cd server
    Create and activate a virtual environment (if not already done):
 2. Create virtual env
-(bash)
-
-python -m venv careerenv
-On Windows: careerenv\Scripts\activate
+    (bash-commands)
+    
+    python -m venv careerenv
+    On Windows: careerenv\Scripts\activate
 
 3. Install the Python dependencies:
 
-  (bash)
+  (bash-commands)
   pip install -r requirements.txt (to install all dependency with in the activated virtaul env careerenv)
   Run the FastAPI server:
   uvicorn main:app --reload
 
 ## FRONT END Setup
+1. Navigate to the client directory:
+  cd client
+2. Install dependency for React-vite
+  npm install
+3. Run code
+  npm run dev
 
+# Contributing
+Steps to contribute:
+
+1. Fork the repository.
+2. Create a feature branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -am 'Add new feature').
+4. Push to the branch (git push origin feature-branch).
+5. Create a pull request.
