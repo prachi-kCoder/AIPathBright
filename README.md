@@ -28,21 +28,20 @@ Before you begin, ensure you have met the following requirements:
 ## Backend Setup
 
 1. **Navigate to the `server` directory:**
-
-   (bash-commands)
+   
    cd server
-   Create and activate a virtual environment (if not already done):
-2. Create virtual env
-    (bash-commands)
-    
+   
+3. Create virtual env
+   
     python -m venv careerenv
-    On Windows: careerenv\Scripts\activate
+   
+    On Windows:   careerenv\Scripts\activate
 
-3. Install the Python dependencies:
+4. Install the Python dependencies:
 
-  (bash-commands)
-  pip install -r requirements.txt (to install all dependency with in the activated virtaul env careerenv)
-  Run the FastAPI server:
+  pip install -r requirements.txt    (to install all dependency with in the activated virtaul env careerenv)
+  
+  - Run the FastAPI server:
   uvicorn main:app --reload
 
 ## FRONT END Setup
