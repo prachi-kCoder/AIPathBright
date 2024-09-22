@@ -1,6 +1,12 @@
 # AIPathBright
 
 AIPathBright is a project that includes a FastAPI backend and a React Vite frontend. This README provides instructions for setting up and running both parts of the application.
+![image](https://github.com/user-attachments/assets/636bb671-db91-4039-a8b6-fff716be87d8)
+![image](https://github.com/user-attachments/assets/4a07ac07-40ab-4b13-8acb-79309aca0933)
+![image](https://github.com/user-attachments/assets/60b2f44a-1351-41f9-9359-b7ff3604fe48)
+
+
+
 
 ## Table of Contents
 
